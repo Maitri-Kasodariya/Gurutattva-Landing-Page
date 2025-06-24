@@ -1,0 +1,32 @@
+.award-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.award-card {
+  background: #fff;
+  border-left: 6px solid #A3B18A	;
+  padding: 1.5rem;
+  border-radius: 3rem;
+  box-shadow: 0 0 1rem rgba(0,0,0,0.05);
+  text-align: left;
+  margin:0.5rem;
+  width: 18rem;
+}
+
+.award-card h2 {
+  font-size: 1.4rem;
+  color: #4B0082;
+}
+
+.award-card p {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+}
+
+.award-card .description {
+  margin-top: 0.8rem;
+  font-style: italic;
+  color: #555;
+}

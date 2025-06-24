@@ -1,0 +1,67 @@
+:root {
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+  --font-subtitle: 'Work Sans', sans-serif;
+  --font-label: 'Source Sans Pro', sans-serif;
+  --font-action: 'Inter', sans-serif;
+
+  font-family: var(--font-body);
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #2E2E2E;
+  background-color: #FAF9F6	;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  font-family: var(--font-heading);
+  color:#4B0082;
+  text-align: center;
+}
+
+p, span, li {
+  font-family: var(--font-body);
+}
+
+.subtitle {
+  font-family: var(--font-subtitle);
+  font-weight: 500;
+  color: #4B0082;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.label, label {
+  font-family: var(--font-label);
+  font-size: 0.875rem;
+  color: #555;
+  letter-spacing: 0.4px;
+}
+
+button, .cta, a {
+  font-family: var(--font-action);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+button{
+  background-color: #F6C177;
+  border-radius: 3rem;
+  margin: 2rem;
+  padding: 1rem;
+  color: white;
+  border:none;
+}
+
+button:hover{
+    color: #F6C177;
+    background-color: white;
+    border: 0.2rem solid #F6C177;
+}
